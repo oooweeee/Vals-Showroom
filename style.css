@@ -78,51 +78,26 @@ body {
     line-height: 1.8;
     color: #34495e; /* Slightly muted for softer readability */
 }/* Footer Styling */
+/* Footer Section */
 .footer {
-    background: url(assets/84763B29-F332-4778-8897-42BBA89F1681.png) no-repeat center center;
-    background-size: cover;
-    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
+    padding: 30px;
+    background: url('assets/Grass.WEBP') center/cover;
     color: white;
-    position: relative;
-    margin-top: 40px;
-    clip-path: polygon(10% 0%, 90% 0%, 100% 10%, 100% 80%, 90% 100%, 10% 100%, 0% 80%, 0% 10%); /* Rough edges for a broken branch effect */
-}
-
-.branch {
-    background: rgba(139, 69, 19, 0.85); /* Dark brown wood-like color with slight transparency */
-    padding: 20px;
-    border-radius: 15px;
-    display: inline-block;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.branch p {
-    font-size: 22px;
     font-weight: bold;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+    width: 100%;
 }
-
-.branch ul {
-    list-style: none;
-    padding: 0;
-}
-
-.branch li {
-    margin: 8px 0;
-}
-
-.branch a {
-    color: #ffcc00; /* Golden yellow for contrast */
+.footer a {
+    color: #ffcc00;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s;
 }
-
-.branch a:hover {
-    color: #ff9900; /* Darker gold on hover */
+.footer a:hover {
+    text-decoration: underline;
 }
